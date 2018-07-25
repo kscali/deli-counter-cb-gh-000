@@ -1,6 +1,6 @@
 katz_deli = []
 
-def line 
+def line(katz_deli) 
   if katz_deli == []
     "The line is currently empty"
   end
@@ -11,9 +11,13 @@ def take_a_number(katz_deli, name)
   new_line = ""
   position = 0 
   katz_deli.each do |person|
-    new_line += position + ". " + person
+    new_line += "#{position}. #{person}"
   position += 1  
   end  
-  puts "The line is currently: " + new_line
+  puts "The line is currently: #{new_line}"
+end  
+
+def now_serving(katz_deli)
+  
 end  
   
