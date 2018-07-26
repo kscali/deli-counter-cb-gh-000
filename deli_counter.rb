@@ -17,11 +17,11 @@ def take_a_number(katz_deli, name)
   if katz_deli == []
     katz_deli.push(name)
   end  
-  i = katz_deli.length
-  while i > 0
+  i = 0
+  while i < 0
     katz_deli.push(name)
     puts "Welcome, #{name}. You are number #{i + 1} in line."
-    i -= 2
+    i += 1
   end
 end  
 
