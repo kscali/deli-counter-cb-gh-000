@@ -16,6 +16,7 @@ end
 def take_a_number(katz_deli, name)
   if katz_deli == []
     katz_deli.push(name)
+  end  
   i = katz_deli.length
   while i > 0
     katz_deli.push(name)
