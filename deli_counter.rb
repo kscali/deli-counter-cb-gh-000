@@ -21,7 +21,7 @@ def take_a_number(katz_deli, name)
   while i > 0
     katz_deli.push(name)
     puts "Welcome, #{name}. You are number #{i + 1} in line."
-    i -= 1
+    i -= 2
   end
 end  
 
