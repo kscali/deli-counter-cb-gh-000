@@ -14,19 +14,17 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
+  i = katz_deli.length
+  while i > 0
   katz_deli.push(name)
-  new_line = ""
-  position = 1 
-  katz_deli.each do |person|
-    new_line += "#{position}. #{person} "
-  position += 1  
-  end  
-  puts "The line is currently: #{new_line}"
+  puts "Welcome #{name}. You are number #{position} in line."
 end  
 
 def now_serving(katz_deli)
   if katz_deli == []
     puts "There is nobody waiting to be served!"
+  else
+    puts "Now serving #{katz_deli[0]"
   end
 end  
   
