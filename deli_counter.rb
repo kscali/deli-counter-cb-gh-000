@@ -1,12 +1,15 @@
 katz_deli = []
 
 def line(katz_deli) 
+  line = ""
   i = 0
   while i < katz_deli.length
     if katz_deli == []
       puts "The line is currently empty"
     end
-  puts 
+  line += [i + 1]. katz_deli[i]  
+  i += 1
+  puts "The line is currently: #{line}"
   end
 end
 
