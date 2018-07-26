@@ -2,7 +2,9 @@ katz_deli = []
 
 def line(deli) 
   line = ""
-  
+  if deli == []
+      puts "The line is currently empty"
+  end
   i = 0
   while i < deli.length
     line += [i + 1]. deli[i]  
