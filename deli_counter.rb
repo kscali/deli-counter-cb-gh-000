@@ -17,7 +17,7 @@ def take_a_number(katz_deli, name)
   i = katz_deli.length
   while i > 0
     katz_deli.push(name)
-    puts "Welcome #{name}. You are number #{position} in line."
+    puts "Welcome #{name}. You are number #{i + 1} in line."
   end
 end  
 
@@ -26,7 +26,7 @@ def now_serving(katz_deli)
     puts "There is nobody waiting to be served!"
   else
     new_line = katz_deli.shift
-    puts "Now serving #{new_line[0]}"
+    puts "Currently serving #{new_line.first}"
   end
 end  
   
