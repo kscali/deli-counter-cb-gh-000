@@ -1,13 +1,13 @@
 katz_deli = []
 
-def line(katz_deli) 
+def line(deli) 
   line = ""
   i = 0
-  while i < katz_deli.length
-    if katz_deli == []
+  while i < deli.length
+    if deli == []
       puts "The line is currently empty"
     end
-  line += [i + 1]. katz_deli[i]  
+  line += [i + 1]. deli[i]  
   i += 1
   puts "The line is currently: #{line}"
   end
